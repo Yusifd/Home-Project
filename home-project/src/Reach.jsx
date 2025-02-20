@@ -9,7 +9,7 @@ function Reach(){
         <>
         <div className="h-[51px] border border-b-[rgba(0,0,0,0.2)]">
             <div className="flex justify-between">
-            <div className="text-[#7a7a7a] grid grid-cols-2 divide-x divide-[rgba(0,0,0,0.2)] flex justify-center">
+            <div className="text-[#7a7a7a]  divide-x divide-[rgba(0,0,0,0.2)] flex justify-center">
                 <div className="flex flex-wrap justify-center w-[615px] h-[15px]">
                    <div><EmailIcon/></div><div><p>Sunny Isles Beach, FL 33160</p></div>
                 </div>
