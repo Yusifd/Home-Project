@@ -3,6 +3,9 @@ import Reach from './Reach'
 import Header from './Header'
 import Carousel from './Carousel'
 import ListingDetails from './ListingDetails'
+import FeaturedApartment from './FeaturedApartment'
+import VideoView from './VideoView'
+import Footer from './Footer'
 
 function App() {
 
@@ -20,6 +23,9 @@ function App() {
        <Carousel slides={slides}/>
        </div>
        <ListingDetails/>
+       <FeaturedApartment/>
+       <VideoView/>
+       <Footer/>
     </>
   )
 }

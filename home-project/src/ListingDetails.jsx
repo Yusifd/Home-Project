@@ -7,12 +7,12 @@ function ListingDetails(){
         <>
         <div>
             <div>
-                <div>
-                    <ul>
-                        <li><div><div><img src={totalFlat}/></div><div><h4>250m2</h4></div></div></li>
-                        <li><div><div><img src={contract}/></div><div><h4>Contract</h4></div></div></li>
-                        <li><div><div><img src={payment}/></div><div><h4>Payment</h4></div></div></li>
-                        <li><div><div><img src={safety}/></div><div><h4>Safety</h4></div></div></li>
+                <div className="bg-white ml-7 shadow-[0px_4px_10px_rgba(0,0,0,0.15)] rounded-lg p-6 w-[25%] text-[15px] text-[#aaaaaa]">
+                    <ul className="mr-32 mt-9 box-border">
+                        <li><div className="flex border-b border-[#eee] gap-7"><div><img src={totalFlat}/></div><div><h4 className=" text-black text-xl font-semibold">250m2</h4><span>Total Flat Space</span></div></div></li>
+                        <li><div className="flex border-b border-[#eee] gap-7"><div><img src={contract}/></div><div><h4 className="text-black text-xl font-semibold">Contract</h4><span>Contract Ready</span></div></div></li>
+                        <li><div className="flex border-b border-[#eee] gap-7"><div><img src={payment}/><span>Process</span></div><div><h4 className="text-black text-xl font-semibold">Payment</h4><span>Payment</span></div></div></li>
+                        <li><div className="flex gap-7"><div><img src={safety}/><span>Control</span></div><div><h4 className="text-black text-xl font-semibold">Safety</h4><span>24/7 under</span></div></div></li>
                     </ul>
                 </div>
             </div>
