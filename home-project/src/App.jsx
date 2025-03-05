@@ -6,6 +6,8 @@ import ListingDetails from './ListingDetails'
 import FeaturedApartment from './FeaturedApartment'
 import VideoView from './VideoView'
 import Footer from './Footer'
+import HouseChoice from './HouseChoice'
+import ContactForm from './ContactForm'
 
 function App() {
 
@@ -24,8 +26,11 @@ function App() {
        </div>
        <ListingDetails/>
        <FeaturedApartment/>
-       <VideoView/>
-       <Footer/>
+       {/* <VideoView/> */}
+       <HouseChoice/>
+       <ContactForm/>       
+
+       <Footer/>      
     </>
   )
 }
