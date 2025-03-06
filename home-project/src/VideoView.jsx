@@ -8,8 +8,7 @@ function VideoView(){
             <div className="relative rounded-lg"><img className="rounded-lg w-[926px] h-[415px] absolute left-[50%] transform -translate-x-1/2 top-[50%] -translate-y-1/2 " src="https://templatemo.com/templates/templatemo_591_villa_agency/assets/images/video-frame.jpg"/><a href="https://www.youtube.com/" target="_blank" className="text-[rgba(254,85,37,0.5)] outline-solid  bg-white rounded-full absolute left-[50%] transform -translate-x-1/2 top-[50%] -translate-y-1/2"><Play/></a></div>
                 <div  className="mt-14">
                     <ul className="w-72 h-24">
-                        <li>
-                            
+                        <li>                            
                             <div className="bg-[#ffeee9] relative ">
                                 <div>
                             <div className="text-[#1e1e1e] text-[16px] font-semibold flex" ><div><h2 className="text-[#f35525] text-4xl font-bold mr-6">34</h2></div><div><p>Buildings<br/>Finished now</p></div></div>

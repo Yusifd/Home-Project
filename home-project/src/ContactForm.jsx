@@ -21,7 +21,7 @@ import ContactInfo from "./ContactInfo";
   return (
     <>
     <div className="flex">
-    <div className="w-full flex justify-center">
+    <div className="w-full">
       <iframe
         title="Google Map"
         width="400"
@@ -32,7 +32,7 @@ import ContactInfo from "./ContactInfo";
       ></iframe>
       <ContactInfo/>
     </div>
-    <div className="flex justify-center items-center min-h-screen">
+    <div className="flex justify-center items-center">
       <div className="bg-white p-6 rounded-2xl shadow-lg w-full max-w-md">
         <form onSubmit={handleSubmit} className="space-y-4">
           <input

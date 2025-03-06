@@ -2,10 +2,10 @@ import CalendarIcon from "./assets/icons/CalendarIcon"
 function Header(){
     return(
         <>
-        <div className="flex sticky top-0 bg-white">
+        <header className="max-w-[1280px] p-4 mx-auto flex justify-between sticky top-0 bg-white">
             <div><h1 className="font-bold text-3xl text-[#1e1e1e] tracking-[2px]">VILLA</h1></div>
             <div>
-                <ul className="flex gap-4">
+                <ul className="flex gap-4 items-center">
                     <li><a href="">Home</a></li>
                     <li><a href="">Properties</a></li>
                     <li><a href="">Property Details</a></li>
@@ -15,7 +15,7 @@ function Header(){
                     </li>                    
                 </ul>
             </div>
-        </div>
+        </header>
         </>
     )
 }

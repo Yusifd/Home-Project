@@ -8,6 +8,7 @@ import VideoView from './VideoView'
 import Footer from './Footer'
 import HouseChoice from './HouseChoice'
 import ContactForm from './ContactForm'
+import Properties from './Properties'
 
 function App() {
 
@@ -28,6 +29,7 @@ function App() {
        <FeaturedApartment/>
        {/* <VideoView/> */}
        <HouseChoice/>
+       <Properties/>
        <ContactForm/>       
 
        <Footer/>      
