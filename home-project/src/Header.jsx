@@ -2,7 +2,7 @@ import CalendarIcon from "./assets/icons/CalendarIcon"
 function Header(){
     return(
         <>
-        <header className="max-w-[1280px] p-4 mx-auto flex justify-between sticky top-0 bg-white">
+        <header className="w-full p-4 mx-auto flex justify-around sticky top-0 bg-white z-1">
             <div><h1 className="font-bold text-3xl text-[#1e1e1e] tracking-[2px]">VILLA</h1></div>
             <div>
                 <ul className="flex gap-4 items-center">

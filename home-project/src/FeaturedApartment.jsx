@@ -1,7 +1,9 @@
+import ListingDetails from "./ListingDetails"
 function FeaturedApartment() {
     return (
-      <div className="flex flex-col md:flex-row bg-white shadow-lg rounded-lg overflow-hidden">
-        <div className="md:w-1/2">
+      <div className="flex justify-around">
+      <div className="flex flex-col md:flex-row bg-white shadow-lg rounded-lg overflow-hidden w-1/2">
+        <div className="md:w-1/5">
           <img
             src="https://templatemo.com/templates/templatemo_591_villa_agency/assets/images/featured.jpg"
             alt="Apartment"
@@ -9,7 +11,7 @@ function FeaturedApartment() {
           />
         </div>
         <div className="md:w-1/2 p-6 flex flex-col justify-between">
-          <span className="text-red-500 text-sm font-bold uppercase">Featured</span>
+          <span className="text-red-500 text-sm font-bold uppercase">| Featured</span>
           <h2 className="text-2xl font-bold text-gray-900">
             Best Appartment & Sea View
           </h2>
@@ -34,6 +36,10 @@ function FeaturedApartment() {
           </div>
         </div>
       </div>
+      <div className="w-1/2">
+       <ListingDetails/>
+       </div>
+      </div>      
     );
   }
   export default FeaturedApartment

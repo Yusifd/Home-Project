@@ -15,6 +15,7 @@ function Carousel({slides}){
     return(
     <>
     <div className="overflow-hidden relative">
+        <div></div>
     <div className={`flex transition ease-in-out duration-400 `} 
     style={{
         transform:`translateX(-${current*100}%)`,

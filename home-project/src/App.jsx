@@ -25,7 +25,6 @@ function App() {
        <div className='w-[60%] m-auto p-11'>
        <Carousel slides={slides}/>
        </div>
-       <ListingDetails/>
        <FeaturedApartment/>
        {/* <VideoView/> */}
        <HouseChoice/>
