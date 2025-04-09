@@ -1,13 +1,11 @@
-import Play from "./assets/icons/Play"
+
 function VideoView(){
     return(
         <>
-        <div className="mt-32">
-            <div></div>
-            <div>
-            <div className="relative rounded-lg"><img className="rounded-lg w-[926px] h-[415px] absolute left-[50%] transform -translate-x-1/2 top-[50%] -translate-y-1/2 " src="https://templatemo.com/templates/templatemo_591_villa_agency/assets/images/video-frame.jpg"/><a href="https://www.youtube.com/" target="_blank" className="text-[rgba(254,85,37,0.5)] outline-solid  bg-white rounded-full absolute left-[50%] transform -translate-x-1/2 top-[50%] -translate-y-1/2"><Play/></a></div>
-                <div  className="mt-14">
-                    <ul className="w-72 h-24">
+        <div className="mt-60">
+ 
+                <div >
+                    <ul className="w-72 h-24 flex">
                         <li>                            
                             <div className="bg-[#ffeee9] relative ">
                                 <div>
@@ -24,7 +22,7 @@ function VideoView(){
                             </div><div className="rounded-full bg-[#f35525] w-12 h-12 absolute -top-6 -right-6"></div></div></li>
                     </ul>
                 </div>
-            </div>
+           
         </div>
         </>
     )

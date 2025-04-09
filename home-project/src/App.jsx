@@ -4,7 +4,7 @@ import Header from './Header'
 import Carousel from './Carousel'
 import ListingDetails from './ListingDetails'
 import FeaturedApartment from './FeaturedApartment'
-import VideoView from './VideoView'
+import VideoPart from './VideoPart'
 import Footer from './Footer'
 import HouseChoice from './HouseChoice'
 import ContactForm from './ContactForm'
@@ -26,7 +26,7 @@ function App() {
        <Carousel slides={slides}/>
        </div>
        <FeaturedApartment/>
-       {/* <VideoView/> */}
+       <VideoPart/>
        <HouseChoice/>
        <Properties/>
        <ContactForm/>       
