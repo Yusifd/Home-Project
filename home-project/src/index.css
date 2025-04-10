@@ -16,3 +16,8 @@
     text-align: center;
 }
 
+.countInfo{
+  padding: 20px 0px;
+  width: 270px;
+  border-radius: 10px;
+}

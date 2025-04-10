@@ -4,7 +4,7 @@ function ContactInfo(){
     return(
         <>
         <div className="flex justify-center rounded-xl">
-            <div className="shadow-[0px_4px_10px_rgba(0,0,0,0.15)]">
+            <div className="shadow-[0px_4px_10px_rgba(0,0,0,0.15)] pt-9 pb-9 pl-7 pr-7">
                 <img src={phoneIcon}/>
                 <h6>
                     010-020-0340

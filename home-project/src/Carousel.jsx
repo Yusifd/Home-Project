@@ -40,7 +40,7 @@ function Carousel({slides}){
                     SetCurent(i);
                 }}
                 key={"circle"+i}
-                className={`rounded-full h-2 w-2 cursor-pointer ${i==current ? "bg-[#f35525]":"bg-white"}`}></div>
+                className={`rounded-full h-2 w-2 cursor-pointer ${i==current ? "bg-primary":"bg-white"}`}></div>
             )
         })}
     </div>
