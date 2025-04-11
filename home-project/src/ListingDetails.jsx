@@ -7,7 +7,7 @@ function ListingDetails(){
         <>
         <div>
             <div>
-                <div className="bg-white ml-7 shadow-[0px_4px_10px_rgba(0,0,0,0.15)] rounded-lg p-6 w-[45%] text-[15px] text-[#aaaaaa]">
+                <div className="bg-white ml-7 shadow-xl rounded-lg p-6 w-[45%] text-[15px] text-[#aaaaaa]">
                     <ul className="mr-32 mt-9 box-border">
                         <li><div className="flex border-b border-[#eee] gap-7"><div><img src={totalFlat}/></div><div><h4 className=" text-black text-xl font-semibold">250m2</h4><span>Total Flat Space</span></div></div></li>
                         <li><div className="flex border-b border-[#eee] gap-7"><div><img src={contract}/></div><div><h4 className="text-black text-xl font-semibold">Contract</h4><span>Contract Ready</span></div></div></li>
