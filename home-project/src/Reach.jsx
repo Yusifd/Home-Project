@@ -20,10 +20,10 @@ function Reach(){
 
             <div>
                 <ul className="flex flex-wrap">
-                  <li><div><FacebookIcon/></div></li>
-                  <li><div><TwitterIcon/></div></li>
-                  <li><div><LinkedinIcon/></div></li>
-                  <li><div><InstagramIcon/></div></li>
+                  <li><div><a href="https://www.facebook.com/" target="_blank"><FacebookIcon/></a></div></li>
+                  <li><div><a href="https://x.com/" target="_blank"><TwitterIcon/></a></div></li>
+                  <li><div><a href="https://www.linkedin.com/" target="_blank"><LinkedinIcon/></a></div></li>
+                  <li><div><a href="https://www.instagram.com/" target="_balnk"><InstagramIcon/></a></div></li>
                </ul>
             </div>
 

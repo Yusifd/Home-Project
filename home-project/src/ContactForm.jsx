@@ -20,18 +20,22 @@ import ContactInfo from "./ContactInfo";
 
   return (
     <>
-    <div className="flex">
-    <div className="w-full">
+    <div className="flex justify-center"> 
+    <div className="w-[50%]">
+      <div className="w-full">
       <iframe
         title="Google Map"
-        width="400"
-        height="400"
-        className="border-0"
+        width="650"
+        height="450"
+        className="border-0 rounded-lg"
         src="https://maps.google.com/maps?width=400&amp;height=400&amp;hl=en&amp;q=Sunny%20Isles%20Beach,%20FL%2033160,%20United%20States+(My%20Business%20Name)&amp;t=h&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
         allowFullScreen
       ></iframe>
+      </div>
+      <div className="w-full">
       <ContactInfo/>
-    </div>
+      </div>
+      </div>
     <div className="flex justify-center items-center">
       <div className="bg-white p-6 rounded-2xl shadow-lg w-full max-w-md">
         <form onSubmit={handleSubmit} className="space-y-4">
