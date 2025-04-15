@@ -39,6 +39,7 @@ import ContactInfo from "./ContactInfo";
     <div className="flex justify-center items-center">
       <div className="bg-white p-6 rounded-2xl shadow-lg w-full max-w-md">
         <form onSubmit={handleSubmit} className="space-y-4">
+          <label for="name" className="text-[15px] text-[#3a3a3a] mb-4">Full Name</label>
           <input
             type="text"
             name="fullName"
@@ -47,22 +48,25 @@ import ContactInfo from "./ContactInfo";
             onChange={handleChange}
             className="w-full p-3 border rounded-lg bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-300"
           />
+          <label for="email" className="text-[15px] text-[#3a3a3a] mb-4">Email Address</label>
           <input
             type="email"
             name="email"
             placeholder="Your E-mail..."
             value={formData.email}
             onChange={handleChange}
-            className="w-full p-3 border rounded-lg bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-300"
+            className="w-full p-3 border rounded-full bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-300"
           />
+          <label for="subject" className="text-[15px] text-[#3a3a3a] mb-4">Subject</label>
           <input
             type="text"
             name="subject"
             placeholder="Subject..."
             value={formData.subject}
             onChange={handleChange}
-            className="w-full p-3 border rounded-lg bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-300"
+            className="w-full p-3 border rounded-full bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-300"
           />
+          <label for="message" className="text-[15px] text-[#3a3a3a] mb-4">Message</label>
           <textarea
             name="message"
             placeholder="Your Message"
@@ -72,7 +76,7 @@ import ContactInfo from "./ContactInfo";
           />
           <button
             type="submit"
-            className="w-full bg-black text-white p-3 rounded-lg hover:bg-gray-800 transition"
+            className="w-[43%] bg-black text-white p-4 font-medium rounded-full hover:bg-primary transition duration-500"
           >
             Send Message
           </button>
