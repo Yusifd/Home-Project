@@ -16,7 +16,7 @@ function FeaturedApartment() {
             Best Appartment & Sea View
           </h2>
           <div className="bg-gray-100 p-4 rounded-md mt-4">
-            <h3 className="text-red-500 font-semibold">Best useful links?</h3>
+            <h3 className="text-primary font-semibold">Best useful links?</h3>
             <p className="text-gray-700 mt-2">
               Get the <span className="font-bold text-black">best villa</span> website template in HTML, CSS, and Bootstrap for your business. TemplateMo provides you the
               <a href="#" className="text-blue-500"> best free CSS templates</a> in the world. Please tell your friends about it.
